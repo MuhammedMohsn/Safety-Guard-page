@@ -1,0 +1,254 @@
+.tab{
+    height:fit-content;
+    width: 100%;
+    color: black;
+    
+}
+
+/* start nav */
+.navbar{
+    background-color: transparent !important;
+}
+.nav_1_text{
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+
+}
+.nav_2_text{
+    color: black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+    }
+.dropdown-menu{
+    background-color: white !important;
+}
+
+.navbar-brand{
+    margin-right: 200px;
+}
+.n{
+    position: absolute;
+    top:0px;
+    z-index: 2;
+    height: fit-content;
+}
+
+.active{
+    color: red !important ;
+}
+.link:hover{
+    color: red !important;
+}
+
+/* end nav */
+/* start slides */
+.slide_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/carousel-1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.slide_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/carousel-2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.control_btn{
+    height: 40px !important;
+    background-color: red;
+    width: 40px !important ;
+    border-radius: 50% !important;
+    top:50%
+}
+.large_container{
+    height: 600px;
+    width: 100%;
+}
+.slide_subhead{
+color:white;
+font-weight: bolder;
+/* font-size: xx-large; */
+font-size: 60px;
+}
+.slide_header{
+    color:red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.learn_more{
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+}
+.learn_more:hover{
+    opacity: .9;
+}
+/* end slides */
+/* start icons */
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.scale{
+    transform: scale(2.8);
+    color: red;
+}
+.icons{
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* end icons */
+/* start about */
+.about{
+    height: fit-content;
+    width: 100%;
+    
+}
+.a{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.big{
+    height: 600px;
+    width: 100%;
+}
+
+.card{
+    height: 366px !important;
+    /* height: fit-content !important; */
+}
+/* start why */
+.c{
+    height: 261px !important;
+}
+/* end why */
+/* start seccurity */
+.seccurity{
+    height: fit-content;
+    width: 100%;
+}
+/* end seccurity */
+/* start TESTIMONIAL */
+.TESTIMONIAL{
+    height: fit-content;
+    width: 100%;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.circle::after{
+    content: "";
+    background-color: white
+    ;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+}
+.option_btn_1,.option_btn_2,.option_btn_3,.option_btn_4{
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    background-color: gray !important;
+    border:2px solid orangered !important;
+  
+}
+
+.option_btn_1{
+    top:170px;
+    left:240px
+}
+.option_btn_2{
+    top:170px;
+    left:270px;
+}
+.option_btn_3{
+    top:170px;
+    left:300px
+}
+.option_btn_4{
+    top:170px;
+    left:330px
+}
+
+/* end TESTIMONIAL */
+/* start blog */
+.blog{
+    height: fit-content;
+    width: 100%;
+}
+.text_blog{
+    width: 80%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 40px;
+}
+.img_content{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+ } 
+ /* start footer */
+.footer{
+    height: fit-content;
+    width: 100%;
+    background-color: black;
+}
+.footer_link{
+    color: white;
+    text-decoration: none;
+}
+.footer_link:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer_icon{
+    width:40px;
+    height: 40px;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+    margin-right: 8px;
+}
+.footer_icon:hover{
+    background-color: white;
+}
+
+
+
+ /* end footer */
+ .control_btns{
+     display: flex;
+     width: 100%;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
