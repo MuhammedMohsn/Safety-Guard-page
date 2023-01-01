@@ -167,28 +167,10 @@ font-size: 60px;
     height: 12px !important;
     width: 12px !important;
     border-radius: 50% !important;
-    /* position: absolute; */
     background-color: gray !important;
     border:2px solid orangered !important;
     margin-right: 20px;
   
-}
-
-.option_btn_1{
-    /* top:50%;
-    left:240px */
-}
-.option_btn_2{
-    /* top:50%;
-    left:270px; */
-}
-.option_btn_3{
-    /* top:50%;
-    left:300px */
-}
-.option_btn_4{
-    /* top:50%;
-    left:330px */
 }
 
 /* end TESTIMONIAL */
