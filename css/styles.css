@@ -167,7 +167,7 @@ font-size: 60px;
     height: 12px !important;
     width: 12px !important;
     border-radius: 50% !important;
-    position: absolute;
+    /* position: absolute; */
     background-color: gray !important;
     border:2px solid orangered !important;
     margin-right: 20px;
@@ -175,20 +175,20 @@ font-size: 60px;
 }
 
 .option_btn_1{
-    top:170px;
-    left:240px
+    /* top:50%;
+    left:240px */
 }
 .option_btn_2{
-    top:170px;
-    left:270px;
+    /* top:50%;
+    left:270px; */
 }
 .option_btn_3{
-    top:170px;
-    left:300px
+    /* top:50%;
+    left:300px */
 }
 .option_btn_4{
-    top:170px;
-    left:330px
+    /* top:50%;
+    left:330px */
 }
 
 /* end TESTIMONIAL */
